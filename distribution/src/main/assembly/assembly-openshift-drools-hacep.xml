@@ -50,8 +50,8 @@
         <exclude>/doc/**</exclude>
         <exclude>/integration/**</exclude>
         <exclude>/jdkhttp/**</exclude>
-        <exclude>/sample-hacep-project/**</exclude>
         <exclude>/thorntail/**</exclude>
+        <exclude>*.md</exclude>
       </excludes>
     </fileSet>
   </fileSets>
@@ -59,15 +59,12 @@
   <dependencySets>
     <dependencySet>
       <includes>
-        <include>org.kie:openshift-kie-hacep:jar</include>
-        <include>org.kie:kie-remote:jar</include>
         <include>org.kie:openshift-kie-springboot:jar</include>
       </includes>
       <outputDirectory>binaries</outputDirectory>
       <useStrictFiltering>true</useStrictFiltering>
       <useTransitiveFiltering>false</useTransitiveFiltering><!-- Only include war -->
     </dependencySet>
-    <!-- TODO: pending Reference Manual -->
   </dependencySets>
 
 </assembly>
