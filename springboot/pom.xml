@@ -33,6 +33,10 @@
           <groupId>javax.validation</groupId>
           <artifactId>validation-api</artifactId>
         </exclusion>
+        <exclusion>
+          <groupId>jakarta.el</groupId>
+          <artifactId>jakarta.el-api</artifactId>
+        </exclusion>
       </exclusions>
     </dependency>
     <dependency>
